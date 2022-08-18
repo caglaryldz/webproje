@@ -5,28 +5,27 @@ ul{
   padding: 0;
   overflow: hidden;
   background-color: #000;
+ 
 }
 
 li {
   float: left;
+  
 }
 
 li a {
   display: block;
-  color: white;
+  
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-#giris1{
-
   color: white;
-  position:absolute;
-  top: 5px;
-  right: 40px;
-
 }
 
+li .giris {
+  background-color: #0d6efd;
+  float: right;
+}
 
 
 li a:hover {
@@ -40,7 +39,37 @@ li a:hover {
   
 }
 
+#form1{
 
+  color: black;
+  position:absolute;
+  top: 250px;
+  left: 150px;
 
+}
 
+#form2{
+
+  color: black;
+  position:absolute;
+  top: 250px;
+  left: 950px;
+
+}
+
+h1{
+  
+  color:#0d6efd;
+  text-align: center;
+}
+
+#hr1{
+  height: 2px;
+  color: grey;
+
+}
+
+#iletisim{
+  background-color:rgb(243, 242, 233);
+}
 
