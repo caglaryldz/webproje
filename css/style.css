@@ -159,3 +159,25 @@ footer{
   color: white;
   opacity: 0.8;
 }
+
+
+.izmir{
+  font-weight: bold;
+  color: black;
+  opacity: 0.8;
+  float: left;
+  margin: 50px;
+}
+
+.izmirBilgi{
+  margin: 50px;
+}
+
+.izmirListe{
+  background-color: grey;
+ 
+}
+
+.gezilecekListe{
+  margin: 50px;
+}
