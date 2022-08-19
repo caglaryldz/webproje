@@ -8,9 +8,12 @@ ul{
  
 }
 
-li {
+li .giris1{
   float: left;
-  
+}
+li .giris2{
+  float: right;
+  background-color: blue;
 }
 
 li a {
@@ -22,10 +25,7 @@ li a {
   color: white;
 }
 
-li .giris {
-  background-color: #0d6efd;
-  float: right;
-}
+
 
 
 li a:hover {
@@ -44,7 +44,7 @@ li a:hover {
   color: black;
   position:absolute;
   top: 250px;
-  left: 150px;
+  left: 200px;
 
 }
 
@@ -59,7 +59,7 @@ li a:hover {
 
 h1{
   
-  color:#0d6efd;
+  color: blue;
   text-align: center;
 }
 
@@ -73,3 +73,89 @@ h1{
   background-color:rgb(243, 242, 233);
 }
 
+.video1{
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+
+.badminton{
+ position: absolute;
+ top:200px;
+ left: 100px;;
+}
+
+
+
+.film{
+  position:absolute;
+  left: 800px;
+  top: 200px;
+}
+
+.dizi{
+  position:absolute;
+  width: 600px;
+  height:800px;
+  left: 800px;
+  top: 250px;
+}
+
+
+
+.yazilim{
+  position: absolute;
+  top:630px;
+  left: 100px;;
+}
+
+
+.cssİgrenc{
+  position: absolute;
+  top:680px;
+  left: 100px;
+  width: 500px;
+  height:300px;
+}
+
+.hakkımda{
+  text-align: center;
+  color: grey;
+}
+
+
+
+.hobi{
+  background-color: rgba(199, 199, 199, 0.2);
+  margin: 50px;
+
+}
+
+.hakkımdaBölüm{
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(199, 199, 199, 0.2);
+}
+
+.metin{
+  text-align: center;
+}
+
+.yazilimci{
+  width: 500px;
+  height:400px;
+  margin: 100px;
+}
+
+.yazilimciMetin{
+  text-align: center;
+}
+
+
+
+footer{
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+}
