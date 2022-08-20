@@ -1,24 +1,25 @@
-ul{
+ul {
   list-style-type: none;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   overflow: hidden;
   background-color: #000;
- 
+
 }
 
-li .giris1{
+li .giris1 {
   float: left;
 }
-li .giris2{
+
+li .giris2 {
   float: right;
   background-color: blue;
 }
 
 li a {
   display: block;
-  
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -33,135 +34,126 @@ li a:hover {
 }
 
 
-.sliderresim{
+.sliderresim {
   height: 550px;
   margin: 0 auto;
-  
+
 }
 
-#form1{
+#form1 {
 
   color: black;
-  position:absolute;
+  position: absolute;
   top: 250px;
   left: 200px;
 
 }
 
-#form2{
+#form2 {
 
   color: black;
-  position:absolute;
+  position: absolute;
   top: 250px;
   left: 950px;
 
 }
 
-h1{
-  
+h1 {
+
   color: blue;
   text-align: center;
 }
 
-#hr1{
+#hr1 {
   height: 2px;
   color: grey;
 
 }
 
-#iletisim{
-  background-color:rgb(243, 242, 233);
+#iletisim {
+  background-color: rgb(243, 242, 233);
 }
 
-.video1{
+.video1 {
   position: absolute;
   top: 250px;
   left: 100px;
 }
 
-.badminton{
- position: absolute;
- top:200px;
- left: 100px;;
+.badminton {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  ;
 }
 
 
 
-.film{
-  position:absolute;
+.film {
+  position: absolute;
   left: 800px;
   top: 200px;
 }
 
-.dizi{
-  position:absolute;
+.dizi {
+  position: absolute;
   width: 600px;
-  height:800px;
+  height: 800px;
   left: 800px;
   top: 250px;
 }
 
 
 
-.yazilim{
+.yazilim {
   position: absolute;
-  top:630px;
-  left: 100px;;
+  top: 630px;
+  left: 100px;
+  
 }
 
 
-.cssİgrenc{
+.cssİgrenc {
   position: absolute;
-  top:680px;
+  top: 680px;
   left: 100px;
   width: 500px;
-  height:300px;
+  height: 300px;
 }
 
-.hakkımda{
+.hakkımda {
   text-align: center;
   color: grey;
 }
 
 
 
-.hobi{
+.hobi {
   background-color: rgba(199, 199, 199, 0.2);
   margin: 50px;
 
 }
 
-.hakkımdaBölüm{
+.hakkımdaBölüm {
   font-family: 'Montserrat', sans-serif;
   background-color: rgba(199, 199, 199, 0.2);
 }
 
-.metin{
+.metin {
   text-align: center;
 }
 
-.yazilimci{
+.yazilimci {
   width: 500px;
-  height:400px;
+  height: 400px;
   margin: 100px;
 }
 
-.yazilimciMetin{
+.yazilimciMetin {
   text-align: center;
 }
 
-
-
-footer{
-  text-align: center;
-  padding: 3px;
-  background-color: black;
-  color: white;
-  opacity: 0.8;
-}
-
-
-.izmir{
+.izmir {
   font-weight: bold;
   color: black;
   opacity: 0.8;
@@ -169,15 +161,76 @@ footer{
   margin: 50px;
 }
 
-.izmirBilgi{
+.izmirBilgi {
   margin: 50px;
 }
 
-.izmirListe{
+.izmirListe {
   background-color: grey;
- 
+  opacity: 0.8;
+
 }
 
-.gezilecekListe{
+.gezilecekListe {
   margin: 50px;
+}
+
+.gözgözLogo {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  width: 350px;
+  height: 350px;
+
+}
+
+.gözgözTarihce{
+  position: absolute;
+  left: 650px;
+  top: 450px;
+}
+
+#gözgözHr{
+  position:relative;
+  height: 2px;
+  color: black;  
+  top: 430px;
+}
+
+#gözgözMetin{
+  position: absolute;
+  top: 530px;
+  left: 100px;
+  right: 100px;
+}
+
+
+.gözgözOyuncu{
+  position: absolute;
+  left: 600px;
+  top: 1150px;
+}
+
+.gözgözOyuncular{
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 1200px;
+}
+.gözgözOyuncular .gözgözisim{
+  float: left;
+  margin-left: 120px;
+}
+
+footer{
+  background-color: #000;
+  position: absolute;
+  top: 1300px;
+
+  text-align: center;
+  padding: 45px;
+  width: 100%;
+  color: white;
+  bottom: 0;
+  
 }
