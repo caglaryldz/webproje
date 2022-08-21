@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>İlgi Alanı</title>
+  <title>Giris</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -17,7 +17,6 @@
 <body>
   <div>
 
-
     <ul>
       <li><a class="giris1" href="hakkımda.html">Hakkımda</a></li>
       <li><a class="giris1" href="ozgecmis.html">Ozgecmis</a></li>
@@ -29,36 +28,38 @@
     </ul>
 
   </div>
-  <h1>İLGİ ALANLARIM </h1>
+    <br><br><br>
+    
+    <div class="container ml-3">
+			
+			<?php 
 
-  <hr id="hr1">
-
-  <p class="badminton">1 - Badminton Oynamak</p>
-
-  <iframe class="video1" width="560" height="315" src="https://www.youtube.com/embed/xfFegO1LsLg"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
-  </iframe><br><br>
-
-  <p class="film">2 - Film/Dizi İzlemek</p>
-
-  <img class="dizi" src="img/houseOfDragon.jpg" alt="resme alternatif yazı">
-  <br><br>
-
-  <p class="yazilim">3 - Yazılım</p>
-
-  <img class="webResim" src="img/yazilim.jpg" alt="resme alternatif yazı">
-  <br><br>
+				include("kullanici.php");
 
 
+				if (($_POST["email"] == $user) and ($_POST["password"] == $pass))
+				{
+			       $_SESSION["login"] = "true";
+			       $_SESSION["user"] = $user;
+			       $_SESSION["pass"] = $pass;
+			
+			       echo("<font color='#fffff'>Girişiniz başarıyla gerçeleştirildi. Hoşgeldin $user !</font>");
+			
+				}
+			
+				else 
+				{
+			            echo "<font color='#ffffc'>Kullancı adı veya şifre yanlış !.</font><br>";
+			            echo "<font color='#ffffc'>Yönlendiriliyorsunuz !</font>";
+			            header("Refresh: 0; url=giris.html");
+			    }
+			
+			?>
+			
+		</div>
 
-<footer>
-  <p>Author: Çağlar Yıldız<br>
-  <a href="mailto:caglar.yildiz1@ogr.sakarya.edu.tr">caglar.yildiz1@ogr.sakarya.edu.tr</a></p>
-</footer>
-
-</body>
-
-
+    
+   
+  </body>
+  
 </html>

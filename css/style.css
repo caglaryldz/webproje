@@ -19,7 +19,6 @@ li .giris2 {
 
 li a {
   display: block;
-
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -75,50 +74,28 @@ h1 {
 }
 
 .video1 {
-  position: absolute;
-  top: 250px;
-  left: 100px;
+  width: 40%; 
+  margin: 0 auto;
+  display: block;
+
 }
 
 .badminton {
-  position: absolute;
-  top: 200px;
-  left: 100px;
-  ;
+text-align: center;
 }
 
 
 
 .film {
-  position: absolute;
-  left: 800px;
-  top: 200px;
+  text-align: center;
 }
 
 .dizi {
-  position: absolute;
-  width: 600px;
-  height: 800px;
-  left: 800px;
-  top: 250px;
-}
+  display: block;
+  margin: auto;
+  width: 380px;
+  height: 500px;
 
-
-
-.yazilim {
-  position: absolute;
-  top: 630px;
-  left: 100px;
-  
-}
-
-
-.cssİgrenc {
-  position: absolute;
-  top: 680px;
-  left: 100px;
-  width: 500px;
-  height: 300px;
 }
 
 .hakkımda {
@@ -130,8 +107,8 @@ h1 {
 
 .hobi {
   background-color: rgba(199, 199, 199, 0.2);
-  margin: 50px;
-
+  display: block;
+  margin: auto;
 }
 
 .hakkımdaBölüm {
@@ -144,13 +121,22 @@ h1 {
 }
 
 .yazilimci {
-  width: 500px;
-  height: 400px;
-  margin: 100px;
+  display: block;
+  margin: auto;
+  width:30%;
+  height:20%;
+
 }
 
-.yazilimciMetin {
+.yazilim{
   text-align: center;
+}
+
+.webResim {
+  display: block;
+  margin: auto;
+  width: 380px;
+  height: 500px;
 }
 
 .izmir {
@@ -166,8 +152,8 @@ h1 {
 }
 
 .izmirListe {
-  background-color: grey;
-  opacity: 0.8;
+  background-color: white;
+
 
 }
 
@@ -176,61 +162,122 @@ h1 {
 }
 
 .gözgözLogo {
-  position: absolute;
-  top: 100px;
-  left: 600px;
-  width: 350px;
-  height: 350px;
-
+  display: block;
+  margin: auto;
 }
 
 .gözgözTarihce{
-  position: absolute;
-  left: 650px;
-  top: 450px;
+  text-align: center  ;
 }
 
 #gözgözHr{
-  position:relative;
+  
   height: 2px;
   color: black;  
-  top: 430px;
+  
 }
 
-#gözgözMetin{
-  position: absolute;
-  top: 530px;
-  left: 100px;
-  right: 100px;
+.gözgözMetin{
+text-align:justify;
+  margin-left: 60px;
+  margin-right: 60px;
+ 
 }
 
 
 .gözgözOyuncu{
-  position: absolute;
-  left: 600px;
-  top: 1150px;
+  text-align: center;
 }
 
 .gözgözOyuncular{
-  background-color: white;
-  position: absolute;
-  left: 100px;
-  top: 1200px;
+background-color: white;
+
 }
 .gözgözOyuncular .gözgözisim{
   float: left;
-  margin-left: 120px;
+  margin-left: 150px;
+
 }
 
-footer{
-  background-color: #000;
-  position: absolute;
-  top: 1300px;
 
+.ozgecmisResim{
+
+  margin-left: 30px;
+  width: 350px;
+  height: 350px;
+}
+
+.bilgi{
+  margin-left: 120px;
   text-align: center;
-  padding: 45px;
-  width: 100%;
-  color: white;
-  bottom: 0;
   
 }
+
+.bilgi2{
+  text-align: left;
+  margin-left: 100px;
+}
+
+.egitim{
+margin-left: 600px;
+margin-top: -500px;
+}
+
+.egitimhr{
+margin-top: auto;
+  width: 61%;
+  float: right;
+
+}
+
+.egitimGecmis{
+margin-left: 600px;
+
+}
+.beceri{
+  margin-left: 600px;
+}
+.beceriler{
+
+  margin-left: 600px;
+
+
+}
+.becerilerhr{
+  margin-top: auto;
+  width: 61%;
+  float: right;
+
+}
+
+.yetenekMiktar{
+  width: 80%;
+  margin: 0 80px;
+  margin-top: -14px;
+  height: 8px;
+  background: rgb(136, 136, 136);
+  position: relative;
+  
+}
+.yetenekMiktar span{
+  position: absolute;
+  height: 100%;
+  background: rgb(59, 67, 216);
+}
+
+.girisYap{
+  display: block;
+  text-align: center;
+  margin: auto;
+  width:30%;
+  padding: 14px 10px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
