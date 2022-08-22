@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Giris</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/iletcontrol.js" ></script>
+  <script src="js/iletgit.js" ></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
@@ -18,7 +20,7 @@
   <div>
 
     <ul>
-      <li><a class="giris1" href="hakkımda.html">Hakkımda</a></li>
+      <li><a class="giris1" href="index.html">Hakkımda</a></li>
       <li><a class="giris1" href="ozgecmis.html">Ozgecmis</a></li>
       <li><a class="giris1" href="sehrim.html">Sehrim</a></li>
       <li><a class="giris1" href="takımım.html">Takımım</a></li>
@@ -30,7 +32,7 @@
   </div>
     <br><br><br>
     
-    <div class="container ml-3">
+    <div >
 			
 			<?php 
 
@@ -43,14 +45,14 @@
 			       $_SESSION["user"] = $user;
 			       $_SESSION["pass"] = $pass;
 			
-			       echo("<font color='#fffff'>Girişiniz başarıyla gerçeleştirildi. Hoşgeldin $user !</font>");
+			       echo("<font color='#0000ff'>Girişiniz başarıyla gerçeleştirildi. Hoşgeldin $user !</font>");
 			
 				}
 			
 				else 
 				{
-			            echo "<font color='#ffffc'>Kullancı adı veya şifre yanlış !.</font><br>";
-			            echo "<font color='#ffffc'>Yönlendiriliyorsunuz !</font>";
+			            echo "<font color='#0000ff'>Kullancı adı veya şifre yanlış !.</font><br>";
+			            echo "<font color='#0000ff'>Yönlendiriliyorsunuz !</font>";
 			            header("Refresh: 0; url=giris.html");
 			    }
 			
